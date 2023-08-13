@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="script.js"></script>
+    <title>Triangle Calculator</title>
+</head>
+<body>
+    <header>
+        Triangle Calculator
+    </header>
+    <div class="content">
+        <div class="content-wrapper">
+            <img src="Index_IMG/triangle.png" alt="ig" width="700px" height="auto">
+            <h2>
+                Triangle Surface Area Formula
+            </h2>
+            <h3>
+                Area : Base * Height / 2
+            </h3>
+            <section class="input-selection">
+                <label for="base-input">Triangle Base</label>
+                <input type="number" id="base-input" placeholder="0"
+            </section>
+            <section class="input-selection">
+                <label for="height-input">Triangle Height</label>
+                <input type="number" id="height-input" placeholder="0"
+            </section>
+            <section class="calculate-button">
+                <button type="button" id="calculate" onclick="area()">
+                    Calculate
+                </button>
+            </section>
+            <section class="results" id="answer"> </section>
+        </div>
+    </div>
+    <div class="content">
+        <div class="content-wrapper">
+            <img src="Index_IMG/triangle.png" alt="ig" width="700px" height="auto">
+            <h2>
+                Triangle Parameter Formula
+            </h2>
+            <h3>
+                Parameter : Side #1 + Side #2 + Side #3
+            </h3>
+            <section class="input-selection">
+                <label for="base-input">Side #1</label>
+                <input type="number" id="side1-input" placeholder="0"/>
+            </section>
+            <section class="input-selection">
+                <label for="height-input">Side #2</label>
+                <input type="number" id="side2-input" placeholder="0"/>
+            </section>
+            </section>
+            <section class="input-selection">
+                <label for="height-input">Side #3</label>
+                <input type="number" id="side3-input" placeholder="0"/>
+            </section>
+            <section class="calculate-button">
+                <button type="button" id="calculate" onclick="parameter()">
+                    Calculate
+                </button>
+            </section>
+            <section class="results" id="answerparameter">
+                
+            </section>
+        </div>
+    </div>
+    <div class="footer">
+        <div>
+            <a class="social" href="https://www.instagram.com/daud.oscc/">
+                <img src="Index_IMG/ig.png" alt="ig" width="20px" height="auto">
+            </a>
+            <a class="social" href="https://www.linkedin.com/in/daud-simanjuntak/">
+                <img src="Index_IMG/li.png" alt="li" width="20px" height="auto">
+            </a>
+        </div>
+        <p>
+            Created by : Daud Jeremiah Oscar Simanjuntak
+        </p>
+    </div>
+</body>
+</html>
